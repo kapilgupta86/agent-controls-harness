@@ -1,5 +1,7 @@
 # agent-controls-harness
 
+[![tests](https://github.com/kapilgupta86/agent-controls-harness/actions/workflows/test.yml/badge.svg)](https://github.com/kapilgupta86/agent-controls-harness/actions/workflows/test.yml)
+
 A small, fully mocked set of tests that show how to enforce **autonomy levels, approvals, budgets and release gates outside the model**. It accompanies the article *Autonomy is earned* on [keshavaai.in](https://keshavaai.in).
 
 Nothing here calls a model or a network. The "model" in the tests is a stand-in that proposes actions; the code in `src/controls.js` decides whether they happen. The code is written to be read in one sitting. It is illustrative, not a production library.
